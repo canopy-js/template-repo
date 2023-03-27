@@ -1,0 +1,41 @@
+{
+ "displayTopicName": "Example Project",
+ "topicTokens": [
+  {
+   "text": "Example Project",
+   "type": "text"
+  }
+ ],
+ "paragraphsBySubtopic": {
+  "Example Project": [
+   {
+    "text": "Text here. This is an example reference to a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "local",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Example Project",
+    "enclosingTopic": "Example Project",
+    "enclosingSubtopic": "Example Project"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Subtopic": [
+   {
+    "text": "This is a subtopic paragraph.",
+    "type": "text"
+   }
+  ]
+ }
+}
