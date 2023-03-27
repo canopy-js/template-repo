@@ -1,0 +1,6 @@
+build/
+canopy_bulk_file
+**/.DS_Store
+.canopy_bulk_original_selection
+.canopy_bulk_backups/**
+Example_Project
